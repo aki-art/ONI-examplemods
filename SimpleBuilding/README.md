@@ -2,6 +2,8 @@ This mod adds a simple Lamp to the game.
 
 Setup tutorial: [ONI Modding Tutorial](https://github.com/Cairath/Oxygen-Not-Included-Modding/wiki)  
 
+[Assets / Compiled dll](https://github.com/aki-art/ONI-examplemods/releases/tag/simple-building-1.0.0)
+
 Topics:
 
 - Adding new code to the game (patching with Harmony)
