@@ -18,6 +18,7 @@ namespace SimpleBuilding.Patches
                 Db.Get().Techs.Get("InteriorDecor").unlockedItemIDs.Add(ExampleLampConfig.ID);
 
                 // Give it a name and a description
+                // The strings key-s id part has to be your item-s ID in ALL CAPS
                 Strings.Add("STRINGS.BUILDINGS.PREFABS.MYMOD_EXAMPLELAMP.NAME", "Example Lamp");
                 Strings.Add("STRINGS.BUILDINGS.PREFABS.MYMOD_EXAMPLELAMP.DESC", "My flavor text for this lamp.");
                 Strings.Add("STRINGS.BUILDINGS.PREFABS.MYMOD_EXAMPLELAMP.EFFECT", $"Provides {UI.FormatAsLink("Light", "LIGHT")}");
